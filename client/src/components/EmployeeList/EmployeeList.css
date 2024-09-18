@@ -1,0 +1,127 @@
+.employee-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  /* Table styling */
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f4b400;
+    color: black;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .employee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+
+  th {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  th::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    font-size: 12px;
+    color: #000000;
+  }
+
+  /* EmployeeList.css */
+
+/* Container for the pagination buttons */
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Style for each pagination button */
+  .pagination button {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Style for the active pagination button */
+  .pagination .active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Hover effect for pagination buttons */
+  .pagination button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

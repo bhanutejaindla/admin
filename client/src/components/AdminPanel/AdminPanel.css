@@ -1,0 +1,38 @@
+.admin-panel {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15); /* Transparent glass-like background */
+    backdrop-filter: blur(12px); /* Blur effect for glassmorphism */
+    border-radius: 12px;
+    padding: 4rem;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Light shadow */
+  }
+  
+  .admin-panel h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8); /* Glossy text */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.1rem;
+    background: linear-gradient(135deg, #6c63ff, #fbaed2);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  /* Decorative Underline */
+  .admin-panel h1::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 2px;
+    margin: 1rem auto;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Add Attractive Background */
+  .admin-panel {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)); /* Glossy color background */
+    backdrop-filter: blur(8px); /* Enhanced glossy effect */
+    border-radius: 16px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.4); /* Attractive shadows */
+  }
